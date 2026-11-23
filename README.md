@@ -70,6 +70,34 @@ omarchy-theme-install https://github.com/Hydradevx/omarchy-azure-glow-theme
 
 ---
 
+## Azure Glow Quattro variant
+
+A Quattro-style variant lives in [`azure-glow-quattro/`](./azure-glow-quattro/):
+an azure `00ccff → 0011bb` top-to-bottom gradient on window borders and shell
+surfaces, with a matching Quickshell session lock (matte black background and
+gradient password field). It also ships an installer that syncs the blue boot
+logo and the browser color policy.
+
+![Azure Glow Quattro Preview](./azure-glow-quattro/preview.png)
+
+![Azure Glow Quattro Unlock](./azure-glow-quattro/preview-unlock.png)
+
+To install the variant from this repo:
+
+```bash
+git clone --depth 1 https://github.com/Hydradevx/omarchy-azure-glow-theme /tmp/omarchy-azure-glow-theme
+cp -r /tmp/omarchy-azure-glow-theme/azure-glow-quattro ~/.config/omarchy/themes/
+bash ~/.config/omarchy/themes/azure-glow-quattro/install.sh
+```
+
+> The installer enables the `quattro.lock` Quickshell plugin and uses `sudo` to
+> set the Plymouth logo and the browser color policy. Review
+> [`azure-glow-quattro/install.sh`](./azure-glow-quattro/install.sh) and the
+> plugin sources before running it: plugins run as unsandboxed code inside the
+> Omarchy shell.
+
+---
+
 ## Wallpaper Ideas
 - Minimalist dark blue gradients with glow streaks
 - Underwater photography with bright blue plankton

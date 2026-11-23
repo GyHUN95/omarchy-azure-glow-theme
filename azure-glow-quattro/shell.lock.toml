@@ -1,0 +1,17 @@
+# Azure Glow Quattro lock screen: a matte black background (hardcoded in
+# LockView) with an azure-glow top-to-bottom gradient password field border.
+# The field text, bullets, error state, and selection tint derive from the
+# tokens below; the gradient border colors are overridden in LockView.
+[lock]
+background       = "#000000"
+background-alpha = 1.0
+text             = "#a8dfff"
+placeholder      = "#7298b1"
+text-error       = "#0099cc"
+# Azure top-to-bottom gradient outline for the password field.
+border           = "#00ccff #0011bb 90deg"
+border-active    = "#00ccff #0011bb 90deg"
+border-error     = "#0099cc"
+border-alpha     = 1.0
+selection        = "#00aaff"
+selection-alpha  = 0.45

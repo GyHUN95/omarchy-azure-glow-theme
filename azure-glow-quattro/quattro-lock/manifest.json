@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "quattro.lock",
+  "name": "Azure Glow Quattro Lock",
+  "version": "1.1.0",
+  "author": "Hydradevx",
+  "description": "Quickshell session lock for the Azure Glow Quattro theme: matte black background and an azure-glow top-to-bottom gradient password field.",
+  "kinds": [
+    "service"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "Service.qml"
+  }
+}
